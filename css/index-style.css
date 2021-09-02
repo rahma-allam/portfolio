@@ -1,0 +1,203 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 60px
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600
+}
+
+p {
+    color: #777
+}
+
+button {
+    background-image: linear-gradient(to right, #8293FF, #65BAFD);
+    color: white;
+    border: none;
+    padding: 10px 26px;
+    font-weight: 600;
+    font-size: 14px
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px
+}
+
+#topNav {
+    background-color: white;
+}
+
+.btn-color {
+    color: black !important
+}
+
+.nav-item {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.act {
+    color: #949EFF !important
+}
+
+a:hover {
+    color: #949EFF !important
+}
+
+
+/* counter */
+
+.col_half {
+    width: 49%;
+}
+
+.col_third {
+    width: 32%;
+}
+
+.col_fourth {
+    width: 23.5%;
+}
+
+.col_fifth {
+    width: 18.4%;
+}
+
+.col_sixth {
+    width: 15%;
+}
+
+.col_three_fourth {
+    width: 74.5%;
+}
+
+.col_twothird {
+    width: 66%;
+}
+
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth {
+    position: relative;
+    display: inline;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+.end {
+    margin-right: 0 !important;
+}
+
+
+/* Column Grids End */
+
+.facts-area {
+    background-image: linear-gradient(to right, #8293FF, #65BAFD);
+    color: white;
+    height: 350px;
+}
+
+.wrapper {
+    width: 980px;
+    position: relative;
+}
+
+.counter {
+    padding: 70px 0;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white
+}
+
+.nav-pills,
+.active {
+    background-color: transparent !important;
+    color: #949EFF !important;
+}
+
+.service-content {
+    color: #212529
+}
+
+.service-content:hover {
+    color: #949EFF !important
+}
+
+.img-hover {
+    position: relative
+}
+
+.overlay {
+    background-image: linear-gradient(to right, #8293FF, #65BAFD);
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    opacity: 0
+}
+
+.img-hover:hover .overlay {
+    opacity: .85
+}
+
+.nav-pills .nav-link {
+    color: #777
+}
+
+.sponser {
+    height: 200px;
+    background-image: linear-gradient(to right, #8293FF, #65BAFD);
+}
+
+footer {
+    background-color: #04091E;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+footer h3,
+footer i {
+    color: white;
+}
+
+input {
+    width: 80%
+}
+
+.arrow {
+    background-color: #8293FF;
+    padding: 13px
+}
